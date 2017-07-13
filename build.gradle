@@ -1,0 +1,25 @@
+plugins {
+  id 'org.akhikhl.gretty' version '1.4.0'
+}
+// Apply the java plugin to add support for Java
+apply plugin: 'war'
+apply plugin: 'org.akhikhl.gretty'
+apply plugin: 'eclipse'
+apply plugin: 'eclipse-wtp'
+gretty {
+  contextPath = '/shoppingList'
+  managedClassReload = true
+}
+
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.springframework:spring-webmvc:4.2.6.RELEASE'
+    compile 'org.springframework:spring-orm:4.2.6.RELEASE'
+  compile 'org.hibernate:hibernate-entitymanager:5.1.0.Final'
+  compile 'jstl:jstl:1.2'
+  testCompile 'junit:junit:4.12'
+}
