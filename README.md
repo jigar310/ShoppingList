@@ -53,7 +53,8 @@ This project is built using the technologies listed above. To make the deploymen
 2. Make sure there is no service on your computer which is consuming the port# 8080
 3. Open the command line terminal of your operating system and change the working directory to local repository of this application. i.e.
 	*  For Windows, open Command Prompt and type ``` cd "PATH_TO_SHOPPING_LIST_REPOSITORY" ``` (Change "PATH_TO_SHOPPING_LIST_REPOSITORY" with your local directory)
-4. Run one of the below commands specific to your operating system.
+4. Make sure you have proper permissions to execute below commands.
+5. Run one of the below commands specific to your operating system.
 	* ``` gradlew appRun ``` if you have Windows operating system.
 	* ``` ./gradlew appRun ``` if you have UNIX based operating system.
-5. Monitor the logs on the console and once you see ```shoppingList runs at:  http://localhost:8080/shoppingList``` on the console,  goto http://localhost:8080/shoppingList in your preferred browser.
+6. Monitor the logs on the console and once you see ```shoppingList runs at:  http://localhost:8080/shoppingList``` on the console,  goto http://localhost:8080/shoppingList in your preferred browser.
