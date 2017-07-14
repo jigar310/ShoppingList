@@ -21,5 +21,6 @@ dependencies {
     compile 'org.springframework:spring-orm:4.2.6.RELEASE'
   compile 'org.hibernate:hibernate-entitymanager:5.1.0.Final'
   compile 'jstl:jstl:1.2'
+  compile 'org.hsqldb:hsqldb:2.3.2'
   testCompile 'junit:junit:4.12'
 }

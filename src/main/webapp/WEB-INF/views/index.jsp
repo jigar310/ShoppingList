@@ -9,6 +9,6 @@
 <H2>Welcome to Shopping List</H2>
     
  <a href="<c:url value="/addItemForm" />" >Add Item to List</a><br/>
- <a href="<c:url value="/list" />" >View/Modify Shopping List</a>
+ <a href="<c:url value="/listAllItems" />" >View/Modify Shopping List</a>
 </body>
 </html>
