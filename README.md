@@ -48,6 +48,9 @@ of 2 stories must be completed. However, not all stories must be completed.
 ## Technical Details
 This project is built using the technologies listed above. To make the deployment easier, database and application server are embedded in the project. The building tool gradle is also embedded with gradle wrapper. So No extra configuration or installations are required to run the application.
 
+### Prerequisites
+You must have installed Java 7 or above in your computer before running this application.
+
 ### Instructions to Run
 1. Clone or download the master branch from https://github.com/jigar310/ShoppingList.git to your local directory.
 2. Make sure there is no service on your computer which is consuming the port# 8080
