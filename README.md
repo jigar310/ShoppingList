@@ -1,16 +1,6 @@
 # ShoppingList
 This is a web application to make and modify the list for shopping. User can Add shopping item, mark it as purchased, modify it and delete it. 
 
-## Technology stack
-### Build Tool
-	Gradle
-### Application container
-	Jetty
-### Database
-	HSQLDB
-### Programming tools
-	Java, Spring, Hibernate, CSS, Java Script
-
 ## Requirements
 
 ### Overview
@@ -45,6 +35,16 @@ of 2 stories must be completed. However, not all stories must be completed.
 * Verify there is functionality to toggle an item as purchased or unpurchased
 * Verify that when this item is marked as purchased, it is displayed differently in the list of items 
 
+## Technology stack
+### Build Tool
+	Gradle
+### Application container
+	Jetty
+### Database
+	HSQLDB
+### Programming tools
+	Java, Spring, Hibernate, CSS, Java Script
+	
 ## Technical Details
 This project is built using the technologies listed above. To make the deployment easier, database and application server are embedded in the project. The building tool gradle is also embedded with gradle wrapper. So No extra configuration or installations are required to run the application.
 
